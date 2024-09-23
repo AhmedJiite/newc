@@ -1,0 +1,24 @@
+200 7
+Closing file hello.txt.
+
+
+Closing file hello.txt.
+
+
+Closing file hello.txt.
+
+
+Closing file hello.txt.
+
+
+Closing file
+
+
+Closing file hello.txt.
+
+
+Closing file hello.txt.
+
+
+Closing file hello.txt.
+

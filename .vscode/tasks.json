@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build with GCC 13.2.0",
+            "command": "/opt/homebrew/bin/g++-14",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g0",
+                "${workspaceFolder}/main.c", // NOTE: this main.cpp depends on your file NAME
+                "-o",
+                "${fileDirname}/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /opt/homebrew/bin/g++-14"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Build with clang 15.0.0",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g0",
+                "${workspaceFolder}/main.c", // NOTE: this main.cpp depends on your file NAME
+                "-o",
+                "${fileDirname}/rooster"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/clang++"
+        }
+    ]
+}
